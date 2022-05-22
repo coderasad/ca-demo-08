@@ -1,0 +1,184 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	.container{
+		max-width: 1150px;
+	}
+}
+
+@media (max-width: 1199px) { 
+	h1{
+		font-size: 4.2rem;
+	}
+	h2{
+		font-size: 3.3rem;
+	}
+	#menu li {
+		margin-right: 2rem;
+	}
+	.tabs_area .nav-link{
+		padding: 1.5rem 2rem;
+	}
+	.tabs_area .nav-link.active {
+		padding: 1.5rem 2.5rem;
+	}
+}
+
+@media (max-width: 991px) {
+	.right_menu{
+		display: none;
+	}
+	.hamburger-menu {
+		display: block;
+	}
+	.ofcavas-menu {
+		display: block;
+	}
+	.shape{
+		display: none;
+	}
+	.hero_area{
+		text-align: center;
+	}
+	.hero_area h1{
+		margin-top: 4rem;
+	}
+	.merchantApp_area{
+		text-align: center;
+	}
+	.management_area::before {
+		top: -2rem;
+		width: 60%;
+		height: 4rem;
+	}
+	.market_area .slider-arrows{
+		justify-content: center;
+		padding-top: 4rem;
+	}
+	.market_area .slide-arrow img{
+		width: 4rem;
+	}
+	.market_area .slide-arrow.prev-slide {
+		margin-right: 2rem;
+	}
+	.storeConnect_area .main_img{
+		margin-bottom: 4rem;
+		text-align: center;
+	}
+	.findBenefit_area .main_img{
+		margin-bottom: 4rem;
+		text-align: center;
+	}
+	.rulse_area .icon_box{
+		margin-top: 3rem;
+	}
+	.tabs_area .wrapper{
+		max-width: 930px;
+		overflow: auto;
+	}
+
+	.tabs_area .nav-tabs {
+		min-width: 930px;
+	}
+	.tabs_area .tab-content{
+		text-align: center;
+	}
+	.tabs_area .main_img{
+		margin-bottom: 6rem;
+	}
+	.successStories_area h4{
+		margin-top: 5rem;
+	}
+	.successStories_area .arrow{
+		width: 4rem;
+	}
+	.successStories_area .arrow img{
+		width: 100%;
+	}
+	.successStories_area .arrow.prev-slide {
+		margin-right: 2rem;
+	}
+	.hero_area .popup_body {
+		width: 70rem;
+		height: 40rem;
+	}
+
+	/* =========== Products and Apps page ========== */
+	.cashierSystem_area{
+		text-align: center;
+	}
+	.cashierSystem_area h1{
+		margin-top: 4rem;
+	}
+	.growing_area .main_img{
+		margin-top: 8rem;
+	}
+
+	/* =========== Business types page ========== */
+	.convenienceStore_area{
+		text-align: center;
+	}
+	.convenienceStore_area h1{
+		margin-top: 4rem;
+	}
+	.retargeted_area .main_img{
+		margin-bottom: 8rem;
+	}
+	.readyMadeData_area .main_img{
+		margin-bottom: 8rem;
+	}
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767px) {
+	section{
+		padding: 7rem 0 !important;
+	}
+	.social_links{
+		display: none;
+	}
+	.hero_area .popup_body {
+		width: 50rem;
+		height: 30rem;
+	}
+	.management_area .icon_box{
+		background: #FFFFFF;
+		box-shadow: 0 4rem 4rem rgba(99, 124, 142, 0.09);
+	}
+	.growing_area{
+		padding-bottom: 0!important;
+	}
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+	html{
+		font-size: 58%;
+	}
+	h1 {
+		font-size: 3.3rem;
+	}
+	h2 {
+		font-size: 2.5rem;
+	}
+	.hero_area .popup_body {
+		width: 36rem;
+		height: 22rem;
+	}
+	.market_area .slide-arrow img {
+		width: 3rem;
+	}
+	.tabs_area .wrapper{
+		max-width: 800px;
+	}
+	.tabs_area .nav-tabs {
+		min-width: 800px;
+	}
+	.tabs_area .nav-link {
+		padding: 1rem 1.5rem;
+	}
+	.tabs_area .nav-link.active {
+		padding: 1rem 1.5rem;
+	}
+}
+
+
